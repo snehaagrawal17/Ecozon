@@ -1,0 +1,300 @@
+[
+  {
+    "id": "875617",
+    "title": "Qudrat Natural Bamboo Shelf | Handcrafted | Eco-Friendly, Sustainable & Durable Multipurpose Storage Rack (3-Tier)",
+    "images": [
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747318980/Bamboo_Shelf_1_qimcrr.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747319345/Bamboo_Shelf_2_mv0c5w.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747319474/Bamboo_Shelf_3_ljy4ns.png"
+    ],
+    "price": {
+      "discounted": 15.35,
+      "original": 18.99
+    },
+    "rating": "https://res.cloudinary.com/dwhajzdg2/image/upload/v1747314176/badge5_xbrbsu.png",
+    "badge_id": 5,
+    "description": "Handcrafted from sustainable bamboo, Qudrat shelves are durable, biodegradable, and perfect for organized, eco-friendly living.",
+    "topBrand": true,
+    "cashOnDelivery": true,
+    "oneDayDelivery": true,
+    "warranty": 2,
+    "model3d": "Bamboo_Shelf_3d_kqtdun-15-4-2025"
+  },
+  {
+    "id": "875622",
+    "title": "Qudrat Natural Wooden Bowl | Handcrafted | Eco-Friendly, Sustainable & Food-Safe Serving Bowl (Medium, 1 Piece)",
+    "images": [
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747319703/Wooden_Bowl_3_z3fjdy.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747319704/Wooden_Bowl_2_cll0fs.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747319706/Wooden_Bowl_1_jhgspf.png"
+    ],
+    "price": {
+      "discounted": 11.75,
+      "original": 14.25
+    },
+    "rating": "https://res.cloudinary.com/dwhajzdg2/image/upload/v1747314176/badge4_qalopo.png",
+    "badge_id": 4,
+    "description": "Qudrat wooden bowls are handcrafted from natural wood, food-safe, chemical-free, and biodegradable—perfect for serving salads, fruits, or snacks.",
+    "topBrand": true,
+    "cashOnDelivery": true,
+    "oneDayDelivery": false,
+    "warranty": 1,
+    "model3d": "https://res.cloudinary.com/dahht3ac1/image/upload/v1747324815/beeswax_wrap.glb"
+  },
+  {
+    "id": "875623",
+    "title": "Qudrat Jute Strawberry Shoulder Bag | Handcrafted | Eco-Friendly, Reusable & Stylish Tote for Everyday Use",
+    "images": [
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747320220/strawberry-shoulder-bag-2_wspjbp.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747320224/strawberry-shoulder-bag_1_ay0eom.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747320223/strawberry-shoulder-bag_3_wlpwv8.png"
+    ],
+    "price": {
+      "discounted": 13.49,
+      "original": 18.0
+    },
+    "rating": "https://res.cloudinary.com/dwhajzdg2/image/upload/v1747314176/badge2_cdkhwx.png",
+    "badge_id": 2,
+    "description": "Qudrat jute bags are biodegradable, durable, and stylish. This strawberry-themed shoulder bag is lightweight, reusable, and perfect for everyday use.",
+    "topBrand": true,
+    "cashOnDelivery": true,
+    "oneDayDelivery": true,
+    "warranty": 2,
+    "model3d": "https://res.cloudinary.com/dahht3ac1/image/upload/v1747324815/steel_bottle.glb"
+  },
+  {
+    "id": "875624",
+    "title": "Qudrat Ceramic Table Lamp | Handcrafted | Eco-Friendly, Elegant & Durable Home Lighting (with Linen Shade)",
+    "images": [
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747320225/ceramic-table-lamp-with-eyelets_3_fdgwf0.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747320225/ceramic-table-lamp-with-eyelets-2_rpfc0u.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747320226/ceramic-table-lamp-with-eyelets-1_adpbqd.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747320226/ceramic-table-lamp-with-eyelets-4_vt6ezy.png"
+    ],
+    "price": {
+      "discounted": 12.49,
+      "original": 15.99
+    },
+    "rating": "https://res.cloudinary.com/dwhajzdg2/image/upload/v1747314176/badge5_xbrbsu.png",
+    "badge_id": 5,
+    "description": "Handcrafted from natural clay with a soft linen shade, Qudrat ceramic table lamps offer warm, ambient lighting. Eco-friendly, durable, and perfect for any living space.",
+    "topBrand": false,
+    "cashOnDelivery": false,
+    "oneDayDelivery": true,
+    "warranty": 1,
+    "model3d": "ceramic-table-lamp-with-eyelets-3d_ckkcnl-15-4-2025"
+  },
+  {
+    "id": "875625",
+    "title": "Qudrat Ceramic Vase | Handcrafted | Eco-Friendly, Minimalist & Elegant Home Décor Piece",
+    "images": [
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747320219/vases-modern-2_brhemv.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747320219/vases-modern-1_erwtqc.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747320219/vases-modern-3_r5mn3d.png"
+    ],
+    "price": {
+      "discounted": 9.99,
+      "original": 12.99
+    },
+    "rating": "https://res.cloudinary.com/dwhajzdg2/image/upload/v1747314176/badge3_iwoq2x.png",
+    "badge_id": 3,
+    "description": "Qudrat ceramic vases are handcrafted with natural clay and a smooth, matte finish. Perfect for fresh or dried flowers, they add a timeless touch to any room.",
+    "topBrand": false,
+    "cashOnDelivery": true,
+    "oneDayDelivery": true,
+    "warranty": 1,
+    "model3d": "ceramic-table-lamp-with-eyelets-3d_lxmhae-15-4-2025"
+  },
+  {
+    "id": "875626",
+    "title": "Qudrat Wooden Desk | Handcrafted | Sustainable, Minimalist & Durable Workstation for Home or Office",
+    "images": [
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747320516/stylized-office-desk-4_uqjnlx.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747320516/stylized-office-desk-3_xxskas.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747320517/stylized-office-desk-2_epjr2o.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747320518/stylized-office-desk-1_ue0hjk.png"
+    ],
+    "price": {
+      "discounted": 24.95,
+      "original": 31.0
+    },
+    "rating": "https://res.cloudinary.com/dwhajzdg2/image/upload/v1747314176/badge5_xbrbsu.png",
+    "badge_id": 5,
+    "description": "Handcrafted from natural wood, Qudrat desks are eco-friendly, sturdy, and perfect for home or office use.",
+    "topBrand": true,
+    "cashOnDelivery": true,
+    "oneDayDelivery": true,
+    "warranty": 2,
+    "model3d": "https://res.cloudinary.com/dahht3ac1/image/upload/v1747324815/ceramic_vase_large.glb"
+  },
+  {
+    "id": "875627",
+    "title": "Qudrat Cat Décor | Handcrafted | Eco-Friendly & Charming Decorative Accent for Home",
+    "images": [
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747323132/cat-decor-3_zrwcwz.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747323133/cat-decor-2_yzc3f4.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747323133/cat-decor-1_yskp34.png"
+    ],
+    "price": {
+      "discounted": 18.75,
+      "original": 22.0
+    },
+    "rating": "https://res.cloudinary.com/dwhajzdg2/image/upload/v1747314176/badge2_cdkhwx.png",
+    "badge_id": 2,
+    "description": "Handcrafted from sustainable materials, Qudrat cat décor adds a playful and stylish touch to any room.",
+    "topBrand": false,
+    "cashOnDelivery": true,
+    "oneDayDelivery": false,
+    "warranty": 1,
+    "model3d": "AnyConv-compressed_bhfvba-15-4-2025-1"
+  },
+  {
+    "id": "875628",
+    "title": "Qudrat Wooden Closet | Handcrafted | Eco-Friendly, Durable & Spacious Wardrobe for Home",
+    "images": [
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747323109/closet-3_apyjmu.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747323109/closet-2_vjmsdr.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747323110/closet-1_iwobla.png"
+    ],
+    "price": {
+      "discounted": 10.95,
+      "original": 14.0
+    },
+    "rating": "https://res.cloudinary.com/dwhajzdg2/image/upload/v1747314176/badge3_iwoq2x.png",
+    "badge_id": 3,
+    "description": "Made from sustainable wood, Qudrat closets offer sturdy and stylish storage for your clothes and essentials.",
+    "topBrand": false,
+    "cashOnDelivery": true,
+    "oneDayDelivery": true,
+    "warranty": 2,
+    "model3d": "dqtqwisslzeaccv1xbwd-15-4-2025"
+  },
+  {
+    "id": "875629",
+    "title": "Qudrat Decorative Vase & Stand | Handcrafted | Eco-Friendly, Elegant Home Décor Set",
+    "images": [
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747323640/decorative-vase-and-stand-2_c28u7v.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747323641/decorative-vase-and-stand-1_r4huvy.png"
+    ],
+    "price": {
+      "discounted": 16.25,
+      "original": 21.5
+    },
+    "rating": "https://res.cloudinary.com/dwhajzdg2/image/upload/v1747314176/badge4_qalopo.png",
+    "badge_id": 4,
+    "description": "Beautifully handcrafted, this eco-friendly vase and stand add a stylish and natural touch to any living space.",
+    "topBrand": true,
+    "cashOnDelivery": false,
+    "oneDayDelivery": false,
+    "warranty": 1,
+    "model3d": "https://res.cloudinary.com/dahht3ac1/image/upload/v1747324815/bamboo_frame_set.glb"
+  },
+  {
+    "id": "875630",
+    "title": "Qudrat Freestanding Bathtub | Handcrafted | Eco-Friendly, Elegant & Durable Bath Tub for Modern Bathrooms",
+    "images": [
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747323148/bathtub-and-faucet-1_yulbi6.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747323147/bathtub-and-faucet-2_rwkfe9.png"
+    ],
+    "price": {
+      "discounted": 54.99,
+      "original": 68.0
+    },
+    "rating": "https://res.cloudinary.com/dwhajzdg2/image/upload/v1747314176/badge5_xbrbsu.png",
+    "badge_id": 5,
+    "description": "Qudrat bathtubs are crafted with sustainable materials for comfort and durability. Sleek, eco-friendly, and perfect for a relaxing soak.",
+    "topBrand": true,
+    "cashOnDelivery": true,
+    "oneDayDelivery": true,
+    "warranty": 3,
+    "model3d": "bath_tub_yfnobe-15-4-2025"
+  },
+  {
+    "id": "875631",
+    "title": "Sustainable Hanging Swing | Cotton & Jute Blend",
+    "images": [
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747324815/swing-1_cotton_jute.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747324815/swing-2_cotton_jute.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747324815/swing-3_cotton_jute.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747324815/swing-4_cotton_jute.png"
+    ],
+    "price": {
+      "discounted": 74.99,
+      "original": 89.99
+    },
+    "rating": "https://res.cloudinary.com/dwhajzdg2/image/upload/v1747314176/badge5_xbrbsu.png",
+    "badge_id": 5,
+    "description": "This relaxing swing is handmade using sustainable cotton and jute fibers. Comfortable and strong, perfect for indoor or outdoor use.",
+    "topBrand": true,
+    "cashOnDelivery": true,
+    "oneDayDelivery": false,
+    "warranty": 2,
+    "model3d": "https://res.cloudinary.com/dahht3ac1/image/upload/v1747324815/cotton_jute_swing.glb"
+  },
+  {
+    "id": "875632",
+    "title": "Eco Canvas Tote Bag | Organic Cotton | Reusable & Washable",
+    "images": [
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747324815/tote-1_organic_cotton.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747324815/tote-2_organic_cotton.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747324815/tote-3_organic_cotton.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747324815/tote-4_organic_cotton.png"
+    ],
+    "price": {
+      "discounted": 7.95,
+      "original": 10.0
+    },
+    "rating": "https://res.cloudinary.com/dwhajzdg2/image/upload/v1747314176/badge2_cdkhwx.png",
+    "badge_id": 2,
+    "description": "Durable tote bag made from certified organic cotton. Great for grocery shopping or everyday use.",
+    "topBrand": false,
+    "cashOnDelivery": true,
+    "oneDayDelivery": true,
+    "warranty": 1,
+    "model3d": "https://res.cloudinary.com/dahht3ac1/image/upload/v1747324815/organic_tote_bag.glb"
+  },
+  {
+    "id": "875633",
+    "title": "Reusable Cotton Face Pads | Pack of 12 | Washable & Biodegradable",
+    "images": [
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747324815/pads-1_bamboo_cotton.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747324815/pads-2_bamboo_cotton.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747324815/pads-3_bamboo_cotton.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747324815/pads-4_bamboo_cotton.png"
+    ],
+    "price": {
+      "discounted": 8.5,
+      "original": 11.75
+    },
+    "rating": "https://res.cloudinary.com/dwhajzdg2/image/upload/v1747314176/badge3_iwoq2x.png",
+    "badge_id": 3,
+    "description": "Replace disposable cotton balls with these washable pads made of bamboo and cotton. Soft, durable, and sustainable.",
+    "topBrand": false,
+    "cashOnDelivery": true,
+    "oneDayDelivery": false,
+    "warranty": 1,
+    "model3d": "https://res.cloudinary.com/dahht3ac1/image/upload/v1747324815/cotton_face_pads.glb"
+  },
+  {
+    "id": "875634",
+    "title": "Organic Jute Desk Organizer | 4 Compartments",
+    "images": [
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747324815/organizer-1_jute_wood.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747324815/organizer-2_jute_wood.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747324815/organizer-3_jute_wood.png",
+      "https://res.cloudinary.com/dahht3ac1/image/upload/v1747324815/organizer-4_jute_wood.png"
+    ],
+    "price": {
+      "discounted": 14.95,
+      "original": 19.99
+    },
+    "rating": "https://res.cloudinary.com/dwhajzdg2/image/upload/v1747314176/badge4_qalopo.png",
+    "badge_id": 4,
+    "description": "This eco-friendly desk organizer is made from jute and recycled wood. Great for home and office use.",
+    "topBrand": true,
+    "cashOnDelivery": true,
+    "oneDayDelivery": true,
+    "warranty": 2,
+    "model3d": "https://res.cloudinary.com/dahht3ac1/image/upload/v1747324815/jute_organizer.glb"
+  }
+]

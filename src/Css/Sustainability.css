@@ -1,0 +1,709 @@
+/* Amazon Sustainability Page Styling */
+@import url('https://fonts.googleapis.com/css2?family=Ember:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary-green: #80DE9A;
+  --secondary-green: #89B753;
+  --primary-blue: #00B099;
+  --dark-blue: #2c3e50;
+  --light-gray: #f2f6f5;
+  --dark-gray: #333;
+  --white: #fff;
+  --orange: #FF6200;
+}
+
+.sustainability-container {
+  font-family: 'Ember', 'Inter', sans-serif;
+  color: var(--dark-gray);
+  overflow-x: hidden;
+  background-color: var(--white);
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  height: 70vh;
+  min-height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+              url('https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1313&q=80');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  padding: 0 2rem;
+}
+
+.hero-content {
+  max-width: 1200px;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.hero-section p {
+  font-size: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Progress Metrics Section */
+.progress-metrics-section {
+  padding: 5rem 2rem;
+  background-color: var(--light-gray);
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+  color: var(--dark-gray);
+}
+
+.metrics-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.metric-card {
+  background: var(--white);
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 350px;
+  position: relative;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.metric-card:hover {
+  transform: translateY(-5px);
+}
+
+.metric-tag {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: var(--primary-green);
+  color: var(--white);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.metric-content {
+  padding-right: 2rem;
+}
+
+.metric-value {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--dark-blue);
+  margin-bottom: 1rem;
+}
+
+.metric-description {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.metric-expand-button {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--dark-blue);
+}
+
+.plus-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  line-height: 22px;
+  text-align: center;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+}
+
+.metric-detail {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+  font-size: 0.9rem;
+  color: var(--dark-blue);
+}
+
+.explore-more-button {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+/* Focus Areas Section */
+.focus-areas-section {
+  padding: 5rem 2rem;
+  background-color: var(--white);
+}
+
+.focus-areas-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.focus-area-card {
+  background: var(--white);
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 250px;
+  transition: all 0.3s ease;
+}
+
+.focus-area-icon {
+  font-size: 2.5rem;
+  color: var(--primary-green);
+  margin-bottom: 1.5rem;
+}
+
+.focus-area-card h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--dark-blue);
+}
+
+.focus-area-card p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.focus-area-link {
+  color: var(--primary-blue);
+  text-decoration: none;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.focus-area-link:hover {
+  color: var(--secondary-green);
+}
+
+.chevron-right {
+  margin-left: 0.5rem;
+  font-size: 1rem;
+}
+
+/* Climate Pledge Section */
+.climate-pledge-section {
+  padding: 5rem 2rem;
+  background-color: var(--dark-blue);
+  color: var(--white);
+}
+
+.climate-pledge-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 3rem;
+}
+
+.climate-pledge-video {
+  flex: 1;
+  min-width: 300px;
+}
+
+.video-placeholder {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.video-placeholder img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.play-button span {
+  font-size: 2rem;
+  color: var(--white);
+}
+
+.climate-pledge-info {
+  flex: 1;
+  min-width: 300px;
+}
+
+.climate-pledge-info h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.climate-pledge-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-green);
+}
+
+.stat-label {
+  font-size: 1rem;
+  color: var(--white);
+}
+
+.climate-pledge-info p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+/* Packaging Section */
+.packaging-section {
+  padding: 5rem 2rem;
+  background-color: var(--white);
+}
+
+.packaging-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.packaging-content h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: var(--dark-blue);
+}
+
+.packaging-content p {
+  font-size: 2rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.highlight {
+  color: var(--primary-blue);
+  font-weight: 600;
+  position: relative;
+  cursor: pointer;
+}
+
+.highlight::after {
+  content: '+';
+  font-size: 0.8rem;
+  position: absolute;
+  top: 0;
+  right: -15px;
+  width: 20px;
+  height: 20px;
+  background-color: var(--primary-green);
+  color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Reports Section */
+.reports-section {
+  padding: 5rem 2rem;
+  background-color: var(--light-gray);
+}
+
+.reports-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.report-card {
+  background: var(--white);
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.report-image {
+  height: 150px;
+  overflow: hidden;
+}
+
+.report-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.report-info {
+  padding: 1.5rem;
+  flex-grow: 1;
+}
+
+.report-tag {
+  display: inline-block;
+  background-color: var(--light-gray);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.report-size {
+  font-size: 0.8rem;
+  color: #666;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.report-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--dark-blue);
+}
+
+.report-download {
+  padding: 1rem;
+  border-top: 1px solid #eee;
+  text-align: center;
+}
+
+.download-button {
+  background-color: var(--primary-blue);
+  color: var(--white);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.see-all-button {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+/* Innovation Section */
+.innovation-section {
+  padding: 5rem 2rem;
+  background-color: var(--white);
+}
+
+.innovation-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto 2rem;
+  gap: 3rem;
+}
+
+.innovation-image {
+  flex: 1;
+  min-width: 300px;
+}
+
+.innovation-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.innovation-accordion {
+  flex: 1;
+  min-width: 300px;
+}
+
+.accordion-item {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.accordion-button {
+  width: 100%;
+  background: none;
+  border: none;
+  text-align: left;
+  padding: 1rem 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--dark-blue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.accordion-icon {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.accordion-content {
+  overflow: hidden;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.accordion-content p {
+  margin-bottom: 1rem;
+}
+
+.visit-science {
+  display: block;
+  text-align: center;
+}
+
+/* Shopping Section */
+.shopping-section {
+  padding: 5rem 2rem;
+  background-color: var(--light-gray);
+}
+
+.shopping-cards {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.shopping-card {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+  background-color: var(--white);
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+}
+
+.card-number {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--dark-gray);
+}
+
+.card-content {
+  flex: 1;
+  min-width: 300px;
+  padding: 3rem 2rem 2rem;
+}
+
+.card-content h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--dark-blue);
+}
+
+.card-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card-image {
+  flex: 1;
+  min-width: 300px;
+  height: 300px;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.learn-more-button {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Buttons */
+.primary-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--primary-blue);
+  color: var(--white);
+  padding: 0.8rem 2rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.primary-button:hover {
+  background-color: var(--secondary-green);
+}
+
+.secondary-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--white);
+  color: var(--primary-blue);
+  padding: 0.8rem 2rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  border: 2px solid var(--primary-blue);
+  transition: all 0.3s ease;
+}
+
+.tertiary-button {
+  display: inline-flex;
+  align-items: center;
+  color: var(--primary-blue);
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.button-icon,
+.external-icon {
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+}
+
+/* Active States */
+.metric-card.active {
+  border-left: 4px solid var(--primary-green);
+}
+
+.accordion-item.active .accordion-button {
+  color: var(--primary-blue);
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .hero-section h1 {
+    font-size: 2.8rem;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .packaging-content p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    height: 50vh;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.2rem;
+  }
+  
+  .hero-section p {
+    font-size: 1rem;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+  }
+  
+  .metric-card {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .focus-area-card {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .packaging-content p {
+    font-size: 1.2rem;
+  }
+  
+  .climate-pledge-stats {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}

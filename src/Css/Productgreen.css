@@ -1,0 +1,264 @@
+/* Modern Product Card Styling */
+.productg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  max-height: 550px;
+  min-width: 100px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.productg:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Product tag (bestseller, new, etc.) */
+.product__tag {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: linear-gradient(135deg, #4caf50, #2e7d32);
+  color: white;
+  padding: 5px 12px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  border-radius: 20px;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+}
+
+/* Product information */
+.product__info {
+  width: 100%;
+  margin-bottom: 15px;
+  padding-top: 20px;
+}
+
+.product__title {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #333;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 48px;
+}
+
+.product__rating {
+  display: flex;
+  margin: 8px 0;
+}
+
+.star {
+  margin-right: 2px;
+  font-size: 0.9rem;
+}
+
+.product__price {
+  margin-top: 5px;
+  color: #2e7d32;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Product image */
+.product__image-container {
+  width: 100%;
+  height: 180px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.product__image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.productg:hover .product__image {
+  transform: scale(1.05);
+}
+
+/* Eco details section */
+.eco_details {
+  width: 100%;
+  background-color: #f5f9f5;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.eco_detail_item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.eco_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  height: 28px;
+}
+
+.eco_icon img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.eco_text {
+  font-size: 0.85rem;
+  color: #4b7b4b;
+  font-weight: 500;
+}
+
+/* Add to cart button */
+.add_to_cart_btn {
+  background: linear-gradient(135deg, #4caf50, #2e7d32);
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.add_to_cart_btn:hover {
+  background: linear-gradient(135deg, #43a047, #1b5e20);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.cart_icon {
+  font-size: 1.1rem;
+}
+
+/* Popover styling */
+.popover_trigger {
+  position: relative;
+  cursor: pointer;
+}
+
+.popover_content {
+  position: fixed;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 80vw;
+  max-height: 80vh;
+  animation: fadeIn 0.2s ease;
+  overflow: auto;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.popover_content_image {
+  max-width: 600px;
+  max-height: 600px;
+  width: auto;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+
+.badge_info_popover {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  width: 220px;
+  color: #333;
+  font-weight: 500;
+  background-color: #e8f5e9;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 20;
+  text-align: center;
+  animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(-10px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.badge_info_triangle {
+  position: absolute;
+  left: -10px;
+  top: 10px;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 10px solid #e8f5e9;
+}
+
+.got_it {
+  background: linear-gradient(135deg, #4caf50, #2e7d32);
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 20px;
+  margin-top: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.got_it:hover {
+  background: linear-gradient(135deg, #43a047, #1b5e20);
+  transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .productg {
+    padding: 15px;
+  }
+  
+  .product__title {
+    font-size: 0.9rem;
+    height: 42px;
+  }
+  
+  .eco_details {
+    padding: 10px;
+  }
+}

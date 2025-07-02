@@ -1,0 +1,86 @@
+.farm-carousel-container {
+    width: 100%;
+    max-width: 400px; /* Adjust this value to control the overall carousel width */
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.carousel-slide-wrapper {
+    padding: 2px;
+}
+
+.square-image-container {
+    position: relative;
+    width: 200px; /* Adjust this value to control the image size */
+    height: 200px; /* Keep the same as width for square aspect ratio */
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.square-carousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.image-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 8px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+/* Carousel Navigation Styles */
+.slick-prev,
+.slick-next {
+    z-index: 1;
+    width: 25px;
+    height: 25px;
+}
+
+.slick-prev {
+    left: -5px;
+}
+
+.slick-next {
+    right: -5px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #4CAF50;
+    font-size: 20px;
+}
+
+.slick-dots {
+    bottom: -25px;
+}
+
+.slick-dots li button:before {
+    font-size: 8px;
+    color: #4CAF50;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #2e7d32;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .farm-carousel-container {
+        max-width: 250px;
+    }
+
+    .square-image-container {
+        width: 180px;
+        height: 180px;
+    }
+}
