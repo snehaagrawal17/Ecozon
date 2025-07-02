@@ -72,6 +72,3 @@ Ecozon is a revolutionary Green Tech Extension that reimagines online shopping w
 ## Demo Link
 loopify-ecozon.vercel.app
 
-## GitHub Repo
-
-https://github.com/iamTanmayS/loopify-ecozon
