@@ -21,7 +21,7 @@ function Home() {
   const [showAlternatives, setShowAlternatives] = useState(false);
   const [alternatives, setAlternatives] = useState([]);
   // Hardcoded API key
-  const apiKey = 'AIzaSyAusQ5wkAoBLlTJIK7vRvpFu4jKitNMe4E';
+
   const [loadingAlternatives, setLoadingAlternatives] = useState(false);
 
   useEffect(() => {
